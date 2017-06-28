@@ -42,9 +42,9 @@ stoken = req.get(URL + '/user/scorpio/mlogin', {}, False).find(id='stoken')['val
 
 params = urllib.urlencode({
     'st': stoken,
-     'kp': 0,
-     'user_id': ID,
-     'password': PASSWORD
+    'kp': 0,
+    'user_id': ID,
+    'password': PASSWORD
 })
 print req.get(URL + '/m/login/dispatch', params, False)
 params = urllib.urlencode({
