@@ -1,6 +1,6 @@
 # inven-attendance
 
-Python 3.x
+Python 3.5 or Higher
 
 ## CONTENTS
 1. SETUP
