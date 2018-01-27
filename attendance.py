@@ -32,7 +32,7 @@ with requests.Session() as s:
     elif 'error' in login_msg:
         exit()
 
-    point = s.post(URL + '/user/scorpio/chk/skill/point').json()
+    point = s.post(URL + '/user/scorpio/chk/skill/point', data={'surl': 'http://www.inven.co.kr'}).json()
     print(point)
 
     # attendance
